@@ -30,6 +30,7 @@ bloomPass.radius = 0;
 const composer = new EffectComposer(renderer);
 composer.addPass(renderScene);
 composer.addPass(bloomPass);
+alert("Kheyli tool keshid ta dorostesh kkonam omidvaram doost daste bashi :`)");
 let usersChoice = prompt("how many heart do you wantttt", 200);
 checkTheNumber(usersChoice);
 
